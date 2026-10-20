@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+   
+    
+}
+
+.library{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    padding: 35px;
+    margin-top: 15px;
+}
+
+/* From Uiverse.io by adamgiebl */ 
+.btnn {
+  font-family: inherit;
+  font-size: 20px;
+  background: royalblue;
+  color: white;
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.btnn span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+
+.btnn svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btnn:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+.btnn:hover svg {
+  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+.btnn:hover span {
+  transform: translateX(5em);
+}
+
+.btnn:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
+}
+
+.center{
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.form{
+
+
+
+    
+  width: 350px;
+  height: 500px;
+  border-radius: 24px;
+  border: 2px solid black;
+  margin-top: 4px;
+  margin-left: 4px;
+
+  box-shadow: 15px 25px 35px rgba(0, 0, 0, 0.2);
+  
+
+
+}
+
+.content{
+    padding: 25px;
+
+    gap:35px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+
+.book-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+}
+
+.subm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-form input {
+    padding: 8px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.allign{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap:15px;
+    padding: 25px;
+}
+
+.book-container{
+
+    height:170px;
+    width: 220px;
+    border-radius: 24px;
+  border: 2px solid black;
+
+box-shadow: 15px 25px 35px rgba(0, 0, 0, 0.2);
+
+padding: 35px;
+  
+
+}
+
